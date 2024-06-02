@@ -1,0 +1,161 @@
+main {
+    margin: 0 2em;
+    color: #66796B;
+}
+
+
+.headerele {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+input {
+    width: 100%;
+}
+
+.input {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.input input,
+.input select,
+.input textarea {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 20em;
+    border-radius: 5px;
+    border: 1px solid #66796B;
+    color: #66796B;
+    background-color: white;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #66796B;
+    color: #EFDFCC;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:active {
+    background-color: #EFDFCC;
+    color: #66796B;
+    transition: 0.2s ease-in-out;
+}
+
+input[type="file"]:hover {
+
+    cursor: pointer;
+}
+
+
+img {
+    width: 70vh;
+    border-radius: 1em;
+}
+
+.bearbeiten {
+    font-family: inherit;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #66796B;
+    color: #EFDFCC;
+    cursor: pointer;
+    margin: 0.5em;
+    font-size: 0.9em;
+
+}
+
+.bearbeiten:hover {
+    background-color: #EFDFCC;
+    color: #66796B;
+    transition: 0.3s ease-in-out;
+}
+
+.speichern {
+    font-family: inherit;
+
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #084F06;
+    color: #EFDFCC;
+    cursor: pointer;
+    margin: 0.5em;
+    font-size: 0.9em;
+
+}
+
+.speichern:hover {
+    background-color: #EFDFCC;
+    color: #084F06;
+    transition: 0.3s ease-in-out;
+}
+
+.loeschen {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #8C0E03;
+    color: #EFDFCC;
+    cursor: pointer;
+    margin: 0.5em;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.alle {
+    --color: #66796B;
+    font-family: inherit;
+    display: inline-block;
+    background-color: #EFDFCC;
+    height: 2.6em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px 20px 20px 0;
+    font-size: 0.8em;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+}
+
+.alle::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 210px;
+    height: 140px;
+    scale: 1.1;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.alle:hover {
+    color: #EFDFCC;
+}
+
+.alle:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+}
+
+.alle:hover::before {
+    top: -30px;
+    left: -30px;
+}
