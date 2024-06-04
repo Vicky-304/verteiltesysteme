@@ -1,3 +1,9 @@
+//wenn cookies bereits bestätingt wurden, wird der automatisch Banner gelöscht
+if (document.cookie.includes("cookieBanner=accepted")) {
+    document.getElementById("cookies").remove();
+}
+
+
 const cookiesbtn = document.getElementById('cookiesbtn');
 const closebtn = document.getElementById('closebtn');
 const navbtn = document.getElementById('menu');
@@ -15,31 +21,31 @@ const closeOrderBtn = document.getElementById('closeOrderBtn')
 cookiesbtn.addEventListener("click", cookies_accept);
 closebtn.addEventListener("click", closeNav);
 navbtn.addEventListener("click", openNav);
-profilebtn.addEventListener("click", function() {
+profilebtn.addEventListener("click", function () {
     openProfile()
 })
-closeProfileBtn.addEventListener("click", function() {
+closeProfileBtn.addEventListener("click", function () {
     closeProfile()
 })
-shopbtn.addEventListener("click", function() {
+shopbtn.addEventListener("click", function () {
     openShop()
 })
-closeShopBtn.addEventListener("click", function() {
+closeShopBtn.addEventListener("click", function () {
     closeShop()
 })
-loginBtn.addEventListener("click", function() {
+loginBtn.addEventListener("click", function () {
     openLogin()
 })
-closeLoginBtn.addEventListener("click", function() {
+closeLoginBtn.addEventListener("click", function () {
     closeLogin()
 })
-closeEditBtn.addEventListener("click", function() {
+closeEditBtn.addEventListener("click", function () {
     closeEdit()
 })
-closeDeleteBtn.addEventListener("click", function() {
+closeDeleteBtn.addEventListener("click", function () {
     closeDelete()
 })
-closeOrderBtn.addEventListener("click", function() {
+closeOrderBtn.addEventListener("click", function () {
     closeOrder()
 })
 
@@ -47,6 +53,7 @@ closeOrderBtn.addEventListener("click", function() {
 // gesamter Cookie Banner wird gelöscht
 function cookies_accept() {
     document.getElementById("cookies").remove();
+    document.cookie = "cookieBanner=accepted; max-age=3600"; //läuft nach 1h ab 
 }
 
 // die Sidenavigation wird geöffnet
