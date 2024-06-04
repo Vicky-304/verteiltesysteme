@@ -1,0 +1,8 @@
+#mail {
+    color: var(--accent-header);
+}
+main p{
+    padding: 0 1.5em 0 1.5em;
+    text-align: center;
+    z-index: 0;
+}

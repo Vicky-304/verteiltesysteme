@@ -1,0 +1,277 @@
+textarea {
+    resize: none;
+    font-family: Lato, sans-serif;
+}
+
+.modern-form {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    padding: 2em 0;
+}
+
+.float-label-field {
+    border: none;
+    outline: none;
+    position: relative;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.float-label-field input,
+.float-label-field textarea {
+    border: none;
+    outline: none;
+    padding: 5px 5px 8px 0px;
+    width: 95%;
+    font-size: 1.25em;
+    border-bottom: solid 1px var(--accent-header);
+}
+
+.float-label-field label {
+    opacity: 0.5;
+    position: absolute;
+    transition: all 0.2s ease;
+    font-size: 1.25em;
+}
+
+.float-label-field.focus label {
+    color: var(--accent-header);
+}
+
+.float-label-field.focus input,
+.float-label-field.focus textarea {
+    border-bottom: solid 2px var(--accent-header);
+}
+
+.float-label-field.float label {
+    opacity: 1;
+    top: -1em;
+    font-size: 70%;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    color: var(--accent-header)
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.btn {
+    width: 10em;
+    height: 3em;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn p {
+    margin: 0 2em 0 2em;
+}
+
+.check-box {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: -2em;
+    opacity: 0;
+}
+
+.check-box svg {
+    width: 2em;
+    margin: 0.5em;
+}
+
+svg path {
+    stroke-width: 3;
+    stroke: #fff;
+    stroke-dasharray: 34;
+    stroke-dashoffset: 34;
+    stroke-linecap: round;
+}
+
+.active {
+    cursor: auto;
+    background: var(--accent-header);
+    transition: 1s;
+}
+
+.active .check-box {
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.active p {
+    margin: 0 3em 0 0;
+    transition: 1s;
+}
+
+.active svg path {
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+} 
+
+@media only screen and (min-width: 768px) {
+
+    .btn {
+        width: 8.75em;
+        height: 2.75em;
+        border: none;
+        outline: none;
+        background: #2f2f2f;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 2em;
+        text-align: center;
+        box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .btn p {
+        margin: 0 1.5em 0 1.5em;
+    }
+    
+    .check-box {
+        width: 30%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        right: -20em;
+        opacity: 0;
+    }
+    
+    .check-box svg {
+        width: 1.75em;
+        margin: 0.45em;
+    }
+    
+    svg path {
+        stroke-width: 3;
+        stroke: #fff;
+        stroke-dasharray: 34;
+        stroke-dashoffset: 34;
+        stroke-linecap: round;
+    }
+    
+    .active {
+        cursor: auto;
+        background: var(--accent-header);
+        transition: 1s;
+    }
+    
+    .active .check-box {
+        right: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .active p {
+        margin: 0 2em 0 0;
+        transition: 1s;
+    }
+    
+    .active svg path {
+        stroke-dashoffset: 0;
+        transition: 1s;
+        transition-delay: 1s;
+    } 
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .btn {
+        width: 8.75em;
+        height: 2.75em;
+        border: none;
+        outline: none;
+        background: #2f2f2f;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 2em;
+        text-align: center;
+        box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .btn p {
+        margin: 0 1.5em 0 1.5em;
+    }
+    
+    .check-box {
+        width: 30%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        right: -20em;
+        opacity: 0;
+    }
+    
+    .check-box svg {
+        width: 1.75em;
+        margin: 0.45em;
+    }
+    
+    svg path {
+        stroke-width: 3;
+        stroke: #fff;
+        stroke-dasharray: 34;
+        stroke-dashoffset: 34;
+        stroke-linecap: round;
+    }
+    
+    .active {
+        cursor: auto;
+        background: var(--accent-header);
+        transition: 1s;
+    }
+    
+    .active .check-box {
+        right: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .active p {
+        margin: 0 2em 0 0;
+        transition: 1s;
+    }
+    
+    .active svg path {
+        stroke-dashoffset: 0;
+        transition: 1s;
+        transition-delay: 1s;
+    } 
+
+    .modern-form {
+        width: 60vw;
+        margin: 0 auto 0 auto;
+        background-color: #fff;
+        padding: 2em 0;
+    }
+
+}

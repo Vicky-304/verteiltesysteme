@@ -1,0 +1,496 @@
+:root {
+    --accent-pink1: #ffd4ea;
+    --accent-pink2: #c79dc7;
+    --accent-header: #a179a1;
+    --accent-cookies: #775877;
+    --accent-pink4: #9A7778;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+.header {
+    background-color: var(--accent-header);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1em;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    max-height: 5em;
+}
+
+header p {
+    font-size: 2em;
+    color: white;
+    font-family: Lato, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav,
+footer {
+    background-color: var(--accent-header);
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+}
+
+nav.shift ul li a {
+    position: relative;
+    z-index: 1;
+}
+
+nav a:hover {
+    color: var(--accent-header);
+}
+
+nav a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: var(--accent-pink1);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+footer a:hover {
+    text-shadow: 0 0 4px;
+}
+
+nav a,
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+}
+
+nav ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #F1C40F;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+nav ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav span {
+    cursor: pointer;
+    float: left;
+    font-size: 2em;
+    margin-left: 0.25em;
+}
+
+.profile_shop {
+    float: right;
+}
+
+.profile_shop img {
+    max-height: 1.25em;
+    float: right;
+    margin: 0 0.25em 0 0;
+}
+
+#shop_bag_icon {
+    max-height: 1.2em;
+}
+
+header>p {
+    text-align: center;
+}
+
+section>p {
+    padding: 0 0.5em 0 0.5em;
+    text-align: center;
+}
+
+main {
+    padding: 0;
+    /*index*/
+    display: center;
+    grid-template-columns: auto;
+    /* min-height: fit-content; */
+}
+
+body {
+    /* justify-content: center; in contact*/
+    max-height: 100%;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    flex-direction: column;
+    display: flex;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--accent-header);
+    padding: 0 0.5em 0 0.5em;
+}
+
+h3 {
+    padding: 0 0.5em 0 0.5em;
+    font-size: 1em;
+    /*--------------------*/
+    text-align: center;
+}
+
+.payments {
+    padding-top: 1.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.payments a {
+    margin: 0 0.25em 0 0.25em;
+}
+
+.payments img {
+    border-radius: 0.5em;
+    background-color: #fff;
+    max-height: 2.075em;
+}
+
+.copyRight a {
+    white-space: nowrap;
+    padding: 0.15em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--accent-cookies);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--accent-cookies) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    text-shadow: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Cookies*/
+.fixed {
+    border: var(--accent-cookies) solid 3px;
+    font-family: Lato, sans-serif;
+    background-color: white;
+    min-height: 7em;
+    width: 60%;
+    padding: 1em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+}
+
+.fixed button {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    font-size: 0.825em;
+    font-family: Lato, sans-serif;
+}
+
+.sidenav {
+    display: 100%;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    font-size: 1.25em;
+    background-color: #000000e4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.sidenav a:hover {
+    text-shadow: 0 0 2px;
+}
+
+.profileSidenav,
+.shopSidenav {
+    display: 100%;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    font-size: 1.25em;
+    background-color: #000000e4;
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.active-sidenav {
+    width: 100%;
+}
+
+.profileSidenav a,
+.shopSidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+.profileSidenav .closebtn,
+.shopSidenav .closebtn,
+.login .closebtn {
+    position: absolute;
+    color: #ffffff;
+    top: 0;
+    right: 25px;
+    font-size: 2em;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.profileSidenav .closebtn:hover,
+.shopSidenav .closebtn:hover,
+.login .closebtn:hover {
+    text-shadow: 0 0 4px;
+}
+
+.login {
+    display: 100%;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    font-size: 1.25em;
+    background-color: #000000e7;
+    color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.loginInput {
+    text-align: center;
+    margin-left: 20.5%;
+    margin-top: 5%;
+    width: 55%;
+    height: 50%;
+    background-color: white;
+}
+
+.userInput {
+    margin: 4em;
+}
+
+.loginInput>button,
+.editDiy>button,
+.deleteDiy>button,
+.orderDiy>button {
+    margin-top: 2em;
+    position: relative;
+    width: 6.5em;
+    height: 2.25em;
+    font-size: .75em;
+    align-items: center;
+    background-color: var(--accent-header);
+    border-radius: 0.75em;
+    border-style: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+@media only screen and (min-width: 376px) {
+
+    header p {
+        font-size: 1.5em;
+    }
+
+    .active-sidenav {
+        width: 75%;
+    }
+
+    header img {
+        max-height: 3em;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .active-sidenav {
+        width: 25%;
+    }
+
+    .payments {
+        padding-top: 1.25em;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .payments a {
+        margin: 0 0.75em 0 0;
+    }
+
+    .payments a:last-child {
+        margin: 0;
+    }
+
+    .payments img {
+        border-radius: 5px;
+        background-color: #fff;
+        max-height: 2.275em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .payments {
+        padding-top: 1.25em;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .payments a {
+        margin: 0 0.75em 0 0;
+    }
+
+    .payments a:last-child {
+        margin: 0;
+    }
+
+    .payments img {
+        border-radius: 5px;
+        background-color: #fff;
+        max-height: 2em;
+    }
+}

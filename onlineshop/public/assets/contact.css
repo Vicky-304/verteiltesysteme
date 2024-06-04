@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    border: none;
+    text-align: center;
+    padding: 1em;
+    width: 25%;
+    max-width: 70%;
+}
+
+.boxtitle {
+    font-weight: bold;
+    color: var(--accent-header);
+}
+
+#contactformular {
+    color: var(--accent-header);
+}
+
+#tel,
+#mail {
+    color: var(--accent-header);
+    text-decoration: none;
+}
+iframe {
+    width: 90vw;
+    height: 15em;
+    margin-bottom: 2em;
+}
+
+/*TODO fix text align mobile view*/
