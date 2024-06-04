@@ -20,14 +20,12 @@ class Login extends BaseController
         $passwort = hash('sha256', $_POST['passwort']);
         $query = $this->mainModel->loginPruefen($username, $passwort);
         if ($query == 0) {
-            echo view('pages/login.php');
-            echo "Login fehlgeschlagen";
+            echo 'Login fehlgeschlagen';
         } else {
             echo "Login erfolgreich";
-            echo view('templates/header.php');
-            echo view('pages/index.php');
-            echo view('templates/footer.php');
-            setcookie('login', 'true');
+            //login cookie setzen
+            setcookie('login', 'true', time() + 3600, '/');
+            return redirect()->to(site_url());
         }
 
     }

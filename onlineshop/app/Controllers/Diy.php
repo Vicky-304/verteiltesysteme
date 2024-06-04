@@ -10,4 +10,10 @@ class Diy extends BaseController
         $this->mainModel = new MainModel();
     }
 
+    public function getIndex()
+    {
+        echo view("templates/header");
+        echo view("pages/diy.php");
+        echo view("templates/footer");
+    }
 }

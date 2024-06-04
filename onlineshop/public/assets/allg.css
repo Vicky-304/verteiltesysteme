@@ -355,6 +355,19 @@ h3 {
     text-shadow: 0 0 4px;
 }
 
+
+
+.loginBtn {
+    background-color: var(--accent-header);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0.5em;
+
+}
+
 .login {
     display: 100%;
     height: 100%;
@@ -368,19 +381,38 @@ h3 {
     color: black;
     overflow-x: hidden;
     padding-top: 60px;
+
 }
 
 .loginInput {
+    padding: 1em;
     text-align: center;
     margin-left: 20.5%;
     margin-top: 5%;
     width: 55%;
     height: 50%;
     background-color: white;
+    border-radius: 0.5em;
 }
 
 .userInput {
     margin: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInput button {
+    margin-top: 2em;
+    width: 6.5em;
+    height: 2.25em;
+    font-size: .75em;
+    align-items: center;
+    background-color: var(--accent-header);
+    border-radius: 0.75em;
+    border-style: none;
+    cursor: pointer;
+    color: #000000;
 }
 
 .loginInput>button,

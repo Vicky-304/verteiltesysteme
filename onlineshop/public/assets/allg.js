@@ -1,8 +1,3 @@
-//wenn cookies bereits bestätingt wurden, wird der automatisch Banner gelöscht
-if (document.cookie.includes("cookieBanner=accepted")) {
-    document.getElementById("cookies").remove();
-}
-
 
 const cookiesbtn = document.getElementById('cookiesbtn');
 const closebtn = document.getElementById('closebtn');
@@ -16,6 +11,17 @@ const closeLoginBtn = document.getElementById('closeLoginBtn')
 const closeEditBtn = document.getElementById('closeEditBtn')
 const closeDeleteBtn = document.getElementById('closeDeleteBtn')
 const closeOrderBtn = document.getElementById('closeOrderBtn')
+
+//Wenn Cookies bereits bestätingt wurden, wird der automatisch Banner gelöscht
+if (document.cookie.includes("cookieBanner=accepted")) {
+    document.getElementById("cookies").style.display = "none";
+}
+
+//wenn der User bereits eingeloggt ist, wird der Login Button ausgeblendet
+if (document.cookie.includes("login=true")) {
+    loginBtn.style.display = "none";
+}
+
 
 
 cookiesbtn.addEventListener("click", cookies_accept);
@@ -52,7 +58,7 @@ closeOrderBtn.addEventListener("click", function () {
 
 // gesamter Cookie Banner wird gelöscht
 function cookies_accept() {
-    document.getElementById("cookies").remove();
+    document.getElementById("cookies").style.display = "none";
     document.cookie = "cookieBanner=accepted; max-age=3600"; //läuft nach 1h ab 
 }
 

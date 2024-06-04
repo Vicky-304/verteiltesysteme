@@ -1,15 +1,12 @@
 <?php
-
 namespace App\Controllers;
 
-class Home extends BaseController
+class Impressum extends BaseController
 {
-    public function index()
+    public function getIndex()
     {
         echo view("templates/header");
-        echo view("pages/index.php");
+        echo view("pages/impressum.php");
         echo view("templates/footer");
     }
-
-
 }

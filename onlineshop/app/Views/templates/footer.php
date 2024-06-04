@@ -28,8 +28,8 @@
     <div class="copyRight">
         <br><a href="#">Datenschutz | </a>
         <a href="#">AGB | </a>
-        <a href="../impressum/impressum.html">Impressum | </a>
-        <a href="../contact/contact.html">Kontakt | </a>
+        <a href="<?php echo base_url('impressum/') ?>">Impressum | </a>
+        <a href="<?php echo base_url('kontakt/') ?>">Kontakt | </a>
         <a href="#">Newsletter abonnieren</a>
         <br>
         <p>Copyright 2023 by michellekoenigseder</p>

@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('assets/apple-touch-icon.png') ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('assets/favicon-32x32.png') ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/favicon-16x16.png') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('favicon/apple-touch-icon.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('favicon/favicon-32x32.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('favicon/favicon-16x16.png') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/contact.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/allg.css') ?>">
 </head>
@@ -22,7 +22,8 @@
     <section>
         <h1>Kontakt</h1>
         <h3>Solltest du Fragen oder Anregungen haben kannst du dich gerne über unser <a
-                href="../contact/contactformular.html" target="_blank" id="contactformular">Kontaktformular</a> bei
+                href="<? echo base_url('kontakt/kontaktformular') ?>" target="_blank"
+                id="contactformular">Kontaktformular</a> bei
             uns melden!</h3>
 
         <div class="container">
@@ -63,10 +64,7 @@
 
     </main>
 
-    <div class="fixed" id="cookies">
-        COOKIES hier akzeptieren
-        <button id="cookiesbtn">weiter</button>
-    </div>
+
 </body>
 <script src="<?php echo base_url('assets/allg.js') ?>"></script>
 
