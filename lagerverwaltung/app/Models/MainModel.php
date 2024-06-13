@@ -34,7 +34,6 @@ class MainModel extends Model
             $data['id']
         ]);
         return $query;
-
     }
 
     public function produktLoeschen($id)
@@ -58,35 +57,5 @@ class MainModel extends Model
             $_POST['img_pfad']
         ]);
         return $query;
-    }
-
-    public function getNextProduct($id)
-    {
-        $counter = 0;
-        do {
-            $query = $this->db->query("SELECT * FROM produkt WHERE id = ?", [$id + 1]);
-            $id++;
-
-        } while ($query->getRowArray() == null && $counter < 10);
-        #Wenn es kein nächstes Produkt gibt, wird das erste Produkt zurückgegeben
-        if ($counter == 10) {
-            $query2 = $this->db->query("SELECT * FROM produkt");
-            return $query2->getRowArray();
-        }
-        return $query->getRowArray();
-    }
-    public function getPastProduct($id)
-    {
-        if ($id > 1) {
-            do {
-                $query = $this->db->query("SELECT * FROM produkt WHERE id = ?", [$id - 1]);
-                $id--;
-                #Kann nicht unter 1 gehen
-            } while ($query->getRowArray() == null && $id > 0);
-            return $query->getRowArray();
-        } else {
-            $query = $this->db->query("SELECT * FROM produkt WHERE id = ?", [1]);
-            return $query->getRowArray();
-        }
     }
 }

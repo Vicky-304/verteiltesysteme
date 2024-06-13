@@ -1,10 +1,4 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url('assets/produktstyle.css') ?>">
 </head>
 
@@ -51,6 +45,9 @@
                     <div class="input">
                         <label for="gewicht_einheit">Gewichtseinheit</label>
                         <select name="gewicht_einheit">
+                            <option value="">
+                                <? if (isset($produkt)): ?>     <? echo $produkt['gewicht_einheit'] ?><? endif; ?>
+                            </option>
                             <option value="ml">Milliliter</option>
                             <option value="l">Liter</option>
                             <option value="g">Gramm</option>
@@ -67,7 +64,7 @@
                     <div class="input">
                         <label for="beschreibung">Beschreibung</label>
                         <textarea name="beschreibung"
-                            value="<?php if (isset($produkt)): ?><?php echo $produkt['beschreibung'] ?><? endif; ?>"></textarea>
+                            value="<? if (isset($produkt)): ?><? echo $produkt['beschreibung'] ?><? endif; ?>"><? if (isset($produkt)): ?><? echo $produkt['beschreibung'] ?><? endif; ?></textarea>
                     </div>
                     <div class="input">
                         <label for="groesse">Größe</label>
@@ -78,7 +75,6 @@
                     <div class="input">
                         <label for="img">Bild</label>
                         <input type="file" name="img" size="20">
-
                     </div>
 
                     <div>

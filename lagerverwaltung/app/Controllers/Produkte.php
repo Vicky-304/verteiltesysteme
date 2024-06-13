@@ -60,8 +60,6 @@ class Produkte extends BaseController
         } else {
             $_POST['img_pfad'] = null;
         }
-
-
     }
 
 
@@ -86,6 +84,5 @@ class Produkte extends BaseController
                 echo view('templates/footer');
             }
         }
-
     }
 }

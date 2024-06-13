@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+header {
+    background-color: #66796B;
+    margin: 0;
+    padding: 2dvh;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #D4C2AD;
+    text-align: center;
+}

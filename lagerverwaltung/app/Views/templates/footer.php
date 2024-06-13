@@ -1,21 +1,6 @@
 <head>
-    <style>
-        footer {
-            background-color: #66796B;
-            color: #D4C2AD;
-            text-align: center;
-            padding: 1em;
-            width: 100%;
-        }
-
-        footer a {
-            color: #D4C2AD;
-            margin: 0;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="<?php echo base_url('assets/footerstyle.css') ?>">
 </head>
-
 
 <body>
     <footer>

@@ -12,7 +12,7 @@ class Api extends BaseController
         $this->apiKey = 1234;
     }
 
-    private function checkApiKey($key)
+    private function apiKeyPruefen($key)
     {
         if ($key == $this->apiKey) {
             return true;
@@ -27,7 +27,7 @@ class Api extends BaseController
     }
     public function getProdukte($key = null)
     {
-        if ($this->checkApiKey($key)) {
+        if ($this->apiKeyPruefen($key)) {
             $produkte = $this->mainModel->getProdukte();
             //für jedes Produkt in produkte den img_pfad durch den kompletten Pfad zum Bild ersetzen
             foreach ($produkte as $key => $produkt) {
