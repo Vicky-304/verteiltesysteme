@@ -38,6 +38,17 @@ class Api extends BaseController
             return $this->getResponse(['error' => 'Ungültiger API key'], ResponseInterface::HTTP_UNAUTHORIZED);
         }
     }
-}
+    // Link zur API-Schnittstelle: http://localhost/lagerverwaltung/public/index.php/api/produkte/1234
 
-// Link zur API-Schnittstelle: http://localhost/lagerverwaltung/public/index.php/api/produkte/1234
+
+    public function postBestellen($key, $id)
+    {
+        $this->getProdukte(1234);
+        if ($this->apiKeyPruefen($key)) {
+            $order_id = $this->mainModel->bestellen($_POST);
+            return $this->getResponse(['message' => 'Bestellung erfolgreich erstellt', 'order_id' => $order_id]);
+        } else {
+            return $this->getResponse(['error' => 'Ungültiger API key'], ResponseInterface::HTTP_UNAUTHORIZED);
+        }
+    }
+}

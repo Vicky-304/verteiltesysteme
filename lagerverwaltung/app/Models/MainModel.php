@@ -58,4 +58,17 @@ class MainModel extends Model
         ]);
         return $query;
     }
+
+    public function bestellen($data)
+    {
+        $bestandNeu = $data['bestand'] - 1;
+        $query = $this->db->query(
+            "UPDATE produkt SET bestand = ? WHERE id = ?",
+            [
+                $bestandNeu,
+                $data['id']
+            ]
+        );
+        return $query;
+    }
 }

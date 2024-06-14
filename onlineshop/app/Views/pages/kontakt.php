@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>
-        SpringCraft & Co. | Kontakt
-    </title>
-    <meta name="description" content="SpringCraft & Co, euer Ansprechpartner in Sachen Basteln und DIYs">
-    <meta name="viewport" content="width=device,install-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('favicon/apple-touch-icon.png') ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('favicon/favicon-32x32.png') ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('favicon/favicon-16x16.png') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/contact.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/allg.css') ?>">
-</head>
-
 <body>
 
     <section>
         <h1>Kontakt</h1>
         <h3>Solltest du Fragen oder Anregungen haben kannst du dich gerne über unser <a
-                href="<? echo base_url('kontakt/kontaktformular') ?>" target="_blank"
+                href="<?php echo base_url('kontakt/kontaktformular') ?>" target="_blank"
                 id="contactformular">Kontaktformular</a> bei
             uns melden!</h3>
 
@@ -66,6 +47,3 @@
 
 
 </body>
-<script src="<?php echo base_url('assets/allg.js') ?>"></script>
-
-</html>

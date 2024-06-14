@@ -12,7 +12,10 @@ class Login extends BaseController
 
     public function getIndex()
     {
-        echo view('pages/login.php');
+        $data['visible'] = true;
+        echo view('templates/header');
+        echo view('pages/login.php', $data);
+        echo view('templates/footer');
     }
     public function postProcess()
     {
@@ -22,9 +25,11 @@ class Login extends BaseController
         if ($query == 0) {
             echo 'Login fehlgeschlagen';
         } else {
+            $query = $this->mainModel->getUserId($username, $passwort);
             echo "Login erfolgreich";
             //login cookie setzen
             setcookie('login', 'true', time() + 3600, '/');
+            setcookie('id', $query[0]['id'], time() + 3600, '/');
             return redirect()->to(site_url());
         }
 

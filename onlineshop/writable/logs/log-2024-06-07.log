@@ -1,0 +1,459 @@
+WARNING - 2024-06-07 15:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 15:44:27 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 15:44:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 15:44:34 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 15:47:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 15:47:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 15:47:43 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:06:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:06:16 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:07:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:07:24 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:08:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:08:02 --> ErrorException: Undefined array key "passwort"
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\Login.php on line 20.
+ 1 APPPATH\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "passwort"', 'D:\\xampp\\htdocs\\onlineshop\\app\\Controllers\\Login.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:08:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-07 16:08:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_shop' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'db_shop', 3306, '', 0)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#4 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_shop' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#3 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#4 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2024-06-07 16:08:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_shop'
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 3 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:11:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-07 16:11:04 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_shop' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'db_shop', 3306, '', 0)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#4 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_shop' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#3 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#4 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2024-06-07 16:11:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_shop'
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 3 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:16:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-07 16:16:17 --> mysqli_sql_exception: Unknown column 'passwort' in 'where clause' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM l...', 0)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#4 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-07 16:16:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 2 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:16:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 4 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:16:17 --> [Caused by] mysqli_sql_exception: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 4 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 5 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:17:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-07 16:17:48 --> mysqli_sql_exception: Unknown column 'passwort' in 'where clause' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM l...', 0)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#4 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-07 16:17:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 2 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:17:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 4 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:17:48 --> [Caused by] mysqli_sql_exception: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 4 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 5 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:18:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$mainModel is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-07 16:18:03 --> mysqli_sql_exception: Unknown column 'passwort' in 'where clause' in D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 D:\xampp\htdocs\onlineshop\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM l...', 0)
+#1 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 D:\xampp\htdocs\onlineshop\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 D:\xampp\htdocs\onlineshop\app\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...', Array)
+#4 D:\xampp\htdocs\onlineshop\app\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9...')
+#5 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+#6 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\xampp\htdocs\onlineshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\onlineshop\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\onlineshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\onlineshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-07 16:18:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 2 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:18:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 4 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:18:03 --> [Caused by] mysqli_sql_exception: Unknown column 'passwort' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM login WHERE username = \'vicky\' AND passwort = \'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\'')
+ 4 APPPATH\Models\MainModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM login WHERE username = ? AND passwort = ?', [...])
+ 5 APPPATH\Controllers\Login.php(21): App\Models\MainModel->loginPruefen('vicky', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->postProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:28:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:28:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:29:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:29:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:36:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:37:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:37:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-06-07 16:51:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Diy::$mainModel is deprecated in APPPATH\Controllers\Diy.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Diy->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 16:53:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: shop]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(262): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Shop.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->getIndex()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

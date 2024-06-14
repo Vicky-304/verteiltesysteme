@@ -35,3 +35,10 @@
         <p>Copyright 2023 by michellekoenigseder</p>
     </div>
 </footer>
+</body>
+<?php if (isset($jsFile)): ?>
+    <script src="<?= base_url('assets/' . $jsFile) ?>"></script>
+<?php endif; ?>
+<script src="<?php echo base_url('assets/allg.js') ?>"></script>
+
+</html>

@@ -6,11 +6,9 @@ const profilebtn = document.getElementById('profile');
 const closeProfileBtn = document.getElementById('closeProfileBtn');
 const shopbtn = document.getElementById('shop_bag');
 const closeShopBtn = document.getElementById('closeShopBtn');
-const loginBtn = document.getElementById('loginBtn')
+const loginBtn = document.getElementById('loginBtn');
+const logoutBtn = document.getElementById('logoutBtn');
 const closeLoginBtn = document.getElementById('closeLoginBtn')
-const closeEditBtn = document.getElementById('closeEditBtn')
-const closeDeleteBtn = document.getElementById('closeDeleteBtn')
-const closeOrderBtn = document.getElementById('closeOrderBtn')
 
 //Wenn Cookies bereits bestätingt wurden, wird der automatisch Banner gelöscht
 if (document.cookie.includes("cookieBanner=accepted")) {
@@ -19,7 +17,12 @@ if (document.cookie.includes("cookieBanner=accepted")) {
 
 //wenn der User bereits eingeloggt ist, wird der Login Button ausgeblendet
 if (document.cookie.includes("login=true")) {
-    loginBtn.style.display = "none";
+    if (loginBtn) {
+        loginBtn.style.display = "none";
+    }
+    if (logoutBtn) {
+        logoutBtn.style.display = "";
+    }
 }
 
 
@@ -39,20 +42,22 @@ shopbtn.addEventListener("click", function () {
 closeShopBtn.addEventListener("click", function () {
     closeShop()
 })
-loginBtn.addEventListener("click", function () {
-    openLogin()
-})
+if(loginBtn) {
+    loginBtn.addEventListener("click", function () {
+        openLogin()
+    })
+}
+if(logoutBtn) {
+    logoutBtn.addEventListener("click", function () {
+        var expirationDate = new Date();
+        expirationDate.setFullYear(expirationDate.getFullYear() - 1); // Set expiration date to one year ago
+        document.cookie = "login=false; path=/; expires=" + expirationDate.toUTCString() + ";";
+        document.cookie = "id=; path=/; expires=" + expirationDate.toUTCString() + ";";
+        window.location.reload();
+    })
+}
 closeLoginBtn.addEventListener("click", function () {
     closeLogin()
-})
-closeEditBtn.addEventListener("click", function () {
-    closeEdit()
-})
-closeDeleteBtn.addEventListener("click", function () {
-    closeDelete()
-})
-closeOrderBtn.addEventListener("click", function () {
-    closeOrder()
 })
 
 
@@ -106,28 +111,3 @@ function openLogin() {
 function closeLogin() {
     document.getElementById("login").style.width = "0%";
 }
-
-function openEdit() {
-    document.getElementById("editPopup").style.width = "100%";
-}
-
-function closeEdit() {
-    document.getElementById("editPopup").style.width = "0%";
-}
-
-function openDelete() {
-    document.getElementById("deletePopup").style.width = "100%";
-}
-
-function closeDelete() {
-    document.getElementById("deletePopup").style.width = "0%";
-}
-
-function openOrder() {
-    document.getElementById("orderPopup").style.width = "100%";
-}
-
-function closeOrder() {
-    document.getElementById("orderPopup").style.width = "0%";
-}
-

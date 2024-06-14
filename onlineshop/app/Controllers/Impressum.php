@@ -5,7 +5,12 @@ class Impressum extends BaseController
 {
     public function getIndex()
     {
-        echo view("templates/header");
+        $data = [
+            'title' => 'Impressumg Page',
+            'cssFile' => 'impressum.css'
+        ];
+
+        echo view("templates/header", $data);
         echo view("pages/impressum.php");
         echo view("templates/footer");
     }

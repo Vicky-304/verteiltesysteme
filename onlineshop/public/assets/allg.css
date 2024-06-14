@@ -253,6 +253,7 @@ h3 {
     background-color: white;
     min-height: 7em;
     width: 60%;
+    z-index: 1000;
     padding: 1em;
     position: fixed;
     top: 50%;
@@ -264,8 +265,12 @@ h3 {
 .fixed button {
     position: absolute;
     top: 80%;
-    right: 5%;
-    font-size: 0.825em;
+    right: 3%;
+    background-color: var(--accent-cookies);
+    color: white;
+    font-size: 0.7em;
+    border-radius: .3em;
+    cursor: pointer;
     font-family: Lato, sans-serif;
 }
 
@@ -316,6 +321,7 @@ h3 {
     top: 0;
     right: 0;
     font-size: 1.25em;
+    text-align: center;
     background-color: #000000e4;
     color: rgb(255, 255, 255);
     overflow-x: hidden;
@@ -380,8 +386,6 @@ h3 {
     background-color: #000000e7;
     color: black;
     overflow-x: hidden;
-    padding-top: 60px;
-
 }
 
 .loginInput {
@@ -416,9 +420,8 @@ h3 {
 }
 
 .loginInput>button,
-.editDiy>button,
-.deleteDiy>button,
-.orderDiy>button {
+button[type="submit"],
+button[type="reset"] {
     margin-top: 2em;
     position: relative;
     width: 6.5em;

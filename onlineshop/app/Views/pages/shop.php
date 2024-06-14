@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>
-        Willkommen im Onlineshop von SpringCraft & Co.
-    </title>
-    <meta name="description" content="Euer Onlineshop für kreative Bastelideen und frühlingshafte DIYs">
-    <meta name="viewport" content="width=device,install-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('favicon/apple-touch-icon.png') ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('favicon/favicon-32x32.png') ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('favicon/favicon-16x16.png') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/shop.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/allg.css') ?>">
-</head>
-
 <body>
+    <div class="login" id="orderPopup">
+        <div class="orderDiy">
+            <h3>DIY erfolgreich bestellt!</h3>
+            <a href="javascript:void(0)" class="closebtn" id="closeOrderBtn">&times;</a>
+        </div>
+    </div>
 
     <section>
         <h1>Willkommen im Onlineshop von SpringCraft & Co.</h1>
@@ -35,12 +22,45 @@
                         https://platzwechsel.de/
                 -->
         <!-- In der class Shop werden die jeweiligen API Einträge generiert -->
-        <div class="shop" id="shop-wrapper"></div>
+        <div class="shop" id="shop-wrapper">
+
+            <?php if (!empty($records) && is_array($records)): ?>
+                <?php foreach ($records as $record): ?>
+                    <div class="shop-entry">
+                        <img id="img-entry" src="<?= $record['img_pfad'] ?>" alt="<?= $record['name'] ?>">
+                        <div class="entry-details">
+                            <label class="desciption">
+                                <?= esc($record['name']) ?> - <?= esc($record['beschreibung']) ?>
+                            </label>
+                            <label class="price">
+                                <?= esc($record['preis']) ?>€
+                            </label>
+                            <!--<p>Category: <?= esc($record['kategorie']) ?></p>
+                            <p>Stock: <?= esc($record['bestand']) ?></p>
+                            <p>Size: <?= esc($record['groesse']) ?></p>
+                            <p>Weight: <?= esc($record['gewicht']) ?> <?= esc($record['gewicht_einheit']) ?></p>-->
+                            <div class="icons">
+                                <? if (isset($_COOKIE['id'])): ?>
+                                    <form action="<?= site_url('shop/bestellen/' . $record['id']) ?>" method="POST">
+                                        <label for="id" style="display: none;"></label>
+                                        <input type="text" id="id" style="display: none;" name="id"
+                                            value="<?= esc($record['id']) ?>">
+                                        <label for="bestand" style="display: none;"></label>
+                                        <input type="text" class="bestand" id="bestand" style="display: none;" name="bestand"
+                                            value="<?= esc($record['bestand']) ?>">
+                                        <button type="submit" class="order" id="order" onclick="openOrder()">bestellen</button>
+                                    </form>
+                                <? endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <p>Es konnten keine Produkte gefunden werden.</p>
+            <?php endif; ?>
+
+        </div>
     </section>
 
     </main>
 </body>
-<script src="<?php echo base_url('assets/shop.js') ?>"></script>
-<script src="<?php echo base_url('assets/allg.js') ?>"></script>
-
-</html>

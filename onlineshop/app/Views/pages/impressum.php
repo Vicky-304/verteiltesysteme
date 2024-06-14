@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>
-        Impressum
-    </title>
-    <meta name="description" content="Springcraft & Co's Impressum">
-    <meta name="viewport" content="width=device,install-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('favicon/apple-touch-icon.png') ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('favicon/favicon-32x32.png') ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('favicon/favicon-16x16.png') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/impressum.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/allg.css') ?>">
-</head>
-
-
 <body>
     <div class='impressum'>
         <h1>Impressum</h1>
@@ -86,6 +66,3 @@
 
     </main>
 </body>
-<script src="<?php echo base_url('assets/allg.js') ?>"></script>
-
-</html>

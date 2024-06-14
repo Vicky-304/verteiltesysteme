@@ -232,7 +232,7 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1450px) {
     /*hover over payments ??*/
     
     .modern-form {
@@ -253,10 +253,11 @@
     }
 
     .shop-entry {
-        max-width: 15em;
+        max-width: 17.5em;
         border: 1px solid #eee;
         margin: 0.4em;
         box-sizing: border-box;
+        padding-bottom: 1em;
     }
 
     .empty {
@@ -278,5 +279,18 @@
     .price {
         display: block;
         margin: 0.5em;
+    }
+
+    .orderDiy {
+        text-align: center;
+        margin: 15.5% 0 0 37.5%;
+        width: 25%;
+        border-radius: .75em;
+        height: 10%;
+        background-color: white;
+    }
+
+    .orderDiy > h3{
+        padding-top: 1.2em;
     }
 }
