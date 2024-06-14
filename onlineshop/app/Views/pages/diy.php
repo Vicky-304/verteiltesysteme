@@ -20,15 +20,16 @@
                     </label>
                 </span>
                 <div id="productsGridEdit">
-                    <?php if (!empty($products) && is_array($products)): ?>                            
+                    <?php if (!empty($products) && is_array($products)): ?>
                         <?php foreach ($products as $product): ?>
                             <label>
                                 <?php if (strpos($diys[isset($_COOKIE['diyId']) || 0]['produkte'], $product['name']) !== false): ?>
-                                    <input type="checkbox" value="<?= esc($product['name'])?>" checked> <?= esc($product['name'])?>
+                                    <input type="checkbox" value="<?= esc($product['name']) ?>" checked> <?= esc($product['name']) ?>
                                 <?php else: ?>
-                                    <input type="checkbox" value="<?= esc($product['name'])?>" onclick="updateSelectedProducts('Edit')" > <?= esc($product['name'])?>
+                                    <input type="checkbox" value="<?= esc($product['name']) ?>"
+                                        onclick="updateSelectedProducts('Edit')"> <?= esc($product['name']) ?>
                                 <?php endif; ?>
-                            </label>                        
+                            </label>
                         <?php endforeach; ?>
                     <?php else: ?>
                         <p>No records found.</p>
@@ -36,7 +37,7 @@
                 </div>
                 <button type="submit">speichern</button>
             </form>
-            
+
         </div>
     </div>
 
@@ -56,7 +57,8 @@
                     <?php if (!empty($products) && is_array($products)): ?>
                         <?php foreach ($products as $product): ?>
                             <label>
-                                <input type="checkbox" value="<?= esc($product['name'])?>" onclick="updateSelectedProducts('Create')"> <?= esc($product['name'])?>
+                                <input type="checkbox" value="<?= esc($product['name']) ?>"
+                                    onclick="updateSelectedProducts('Create')"> <?= esc($product['name']) ?>
                             </label>
                         <?php endforeach; ?>
                     <?php else: ?>
@@ -100,7 +102,8 @@
             <?php if (!empty($diys) && is_array($diys)): ?>
                 <?php foreach ($diys as $diy): ?>
                     <div class="shop-entry">
-                        <img id="img-entry" src="<?= base_url('/pictures/diy/' . $diy['img_pfad']) ?>" alt="<?= esc($diy['titel']) ?>">
+                        <img id="img-entry" src="<?= base_url('/pictures/diy/' . $diy['img_pfad']) ?>"
+                            alt="<?= esc($diy['titel']) ?>">
                         <div class="entry-details">
                             <label class="desciption">
                                 <?= esc($diy['titel']) ?> - <?= esc($diy['beschreibung']) ?>
@@ -114,7 +117,7 @@
                                     <button id="order" onclick="openOrder()">bestellen</button>
                                 </form> -->
                                 <button id="order" onclick="openOrder()">bestellen</button>
-                                <?php if (isset($_COOKIE['login']) && $_COOKIE['login'] == 'true' && $_COOKIE['id'] == $diy['user_id']): ?>                    
+                                <?php if (isset($_COOKIE['login']) && $_COOKIE['login'] == 'true' && $_COOKIE['id'] == $diy['user_id']): ?>
                                     <a id="delete" onclick="openDelete()"><img src="icons/trashcan.png"></a>
                                     <a id="edit" onclick="openEdit(<?= $diy['post_id'] ?>)"><img src="icons/editPen.png"></a>
                                 <?php endif; ?>
